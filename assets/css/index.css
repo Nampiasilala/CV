@@ -59,7 +59,8 @@ h4 {
   }
   .element1 {
     background-color: #bbc2c9;
-    width: 107%;
+    width: 100%;
+    padding: 17.5px;
   }
   .element2 {
     background-color: #d7dddd;
