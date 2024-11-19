@@ -29,7 +29,6 @@
 .element1 {
   width: 25%;
   text-align: center;
-  padding: 5px;
   padding-top: 17px;
   background-color: #e1e7ed3b;
 }
@@ -43,7 +42,6 @@
 .element3 {
   background-color: #d9dddd;
   width: 25%;
-  padding-left: 10px;
 }
 .element4 {
   background-color: #e1e7ed;
@@ -55,6 +53,14 @@ h4 {
   color: #d8ff00;
   animation: fadeInOut 10s infinite;
   animation: scrollEffect 2s linear;
+}
+
+h3 {
+  position: relative;
+  animation: reveal linear;
+  animation-timeline: view();
+  animation-range-start: cover 0%;
+  animation-range-end: contain 5%;
 }
 
 @media (max-width: 768px) {
@@ -92,7 +98,6 @@ h4 {
   .element3 {
     background-color: #d9dddd;
     width: 100%;
-    padding: 0px 20px 0px 15px;
   }
   .element4 {
     background-color: #e1e7ed;
