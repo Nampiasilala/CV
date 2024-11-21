@@ -138,3 +138,18 @@ h1 {
     opacity: 1;
   }
 }
+
+details {
+  margin-bottom: 10px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+details[open] summary {
+  color: #485539;
+}
+details p {
+  margin: 10px 0;
+}
